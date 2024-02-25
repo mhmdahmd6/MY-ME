@@ -11,14 +11,19 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Boxicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+    <!-- js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <title>M. Jaballah</title>
     
 </head>
 <body >
     <!-- ---Header--- -->
     <header>
-        <a href="" class="logo">M.Jaballah<span>.</span></a>
+        <a href="#" class="logo">M.Jaballah<span>.</span></a>
 
         <div class="nav-container">
             <ul class="navbar">
@@ -40,19 +45,19 @@
     <!-- --- Profile Section --- -->
     <section id="profile">
 
-        <div class="section__pic-container">
-            <img src="Logo.png" alt="">
+        <div class="section__pic-container tagline">
+            <img src="assets/Logo.png" alt="">
         </div>
 
-        <div class="section__text">
+        <div class="section__text text-box">
 
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Mohamed Ahmad</h1>
+            <p class="section__text__p1 text-box">Hello, I'm</p>
+            <h1 class="title text-box">Mohamed Ahmad</h1>
             <p class="section__text__p2">Front-End Developer</p>
             <p class="section__text__p3">with konwledge in web development and design,</br>I offer the best Projects resulting in quality work.</p>
             
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('Mohamed Ahmad-CV.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="window.open('assets/Mohamed Ahmad-CV.pdf')">Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
             </div>
 
@@ -65,12 +70,12 @@
 
     </section>
     <!-- --- About Section --- -->
-    <section id="about">
+    <section id="about" class="text-box">
      <p class="section__text__p1">Get To Know More</p>
-     <h1 class="title">About Me</h1>
+     <h1 class="title ">About Me</h1>
 
      <div class="section-container">
-         <div class="adout-datails-container">
+         <div class="adout-datails-container tagline">
              <div class="text-container">
              <p>
                 I’m a front-end web developer with a strong passion for creating visually appealing and userfriendly
@@ -81,15 +86,15 @@
             </div>
          </div>
 
-         <div class="section__pic-container">
-             <img src="M.Jaballah.jpg" alt="" class="about-pic">
+         <div class="section__pic-container text-box">
+             <img src="assets/M.Jaballah.jpg" alt="" class="about-pic">
          </div>
 
      </div>
      <img src="" class="arrow">
     </section>
     <!-- --- Skills Section --- -->
-    <section class="skills" id="skills">
+    <section class="skills section-box" id="skills">
 
         <p class="section__text__p1">Favorite Skills</p>   
         <h1 class="title skills-text">My Skills</h1>
@@ -98,64 +103,84 @@
 
             <div class="row">
                 <div class="row-img">
-                    <img src="s1.png" alt="">
+                    <img src="assets/s1.png" alt="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="row-img">
-                    <img src="s2.png" alt="">
+                    <img src="assets/s2.png" alt="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="row-img">
-                    <img src="s3.png" alt="">
+                    <img src="assets/s3.png" alt="">
                 </div>
             </div>
             
 
             <div class="row">
                 <div class="row-img">
-                    <img src="s4.png" alt="">
+                    <img src="assets/s4.png" alt="">
                 </div>
             </div>
 
             <div class="row">
                 <div class="row-img">
-                    <img src="s5.png" alt="">
+                    <img src="assets/s5.png" alt="">
                 </div>
             </div>
             <div class="row">
                 <div class="row-img">
-                    <img src="s6.png" alt="">
+                    <img src="assets/s6.png" alt="">
                 </div>
             </div>
 
         </div>
     </section>
       <!-- --- Projects Section --- -->
-      <section id="projects">
+      <section id="projects" class="section-box">
         <p class="section__text__p1">Browse My Recent</p>   
         <h1 class="title">Projects</h1>
 
-        <div class="experience-details-container">
-            <div class="about-containers">
+        <div class="experience-details-container swiper">
+            <div class="about-containers swiper-wrapper">
 
-                <div class="details-container">
+                <div class="details-container swiper-slide">
                     <div>
-                        <img src="projact-img 1.PNG" class="projact-img">
+                        <img src="assets/projact-img-3.png" class="projact-img">
                     </div>
-                    <h2 class="experience-sun-title projact-title">Project BOSLA</h2>
+                    <h2 class="experience-sun-title projact-title">Project COMBO</h2>
                     <div class="btn-container">
                         <button class="btn btn-color-1" onclick="location.href='https://github.com/mhmdahmd6'">Github <i class="ri-github-line p-icon"></i></button>
                         <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mhmdahmd6'">Live Demo <i class="ri-upload-2-line p-icon"></i></button>
                     </div>
                 </div>
 
-                <div class="details-container">
+                <div class="details-container swiper-slide">
                     <div>
-                        <img src="projact-img 2.PNG" class="projact-img">
+                        <img src="assets/projact-img-2.PNG" class="projact-img">
+                    </div>
+                    <h2 class="experience-sun-title projact-title">Project SPIRO SPATHIS</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com/mhmdahmd6'">Github <i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mhmdahmd6'">Live Demo <i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+                <div class="details-container swiper-slide">
+                    <div>
+                        <img src="assets/projact-img-1.png" class="projact-img">
+                    </div>
+                    <h2 class="experience-sun-title projact-title">Project SPIRO SPATHIS</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com/mhmdahmd6'">Github <i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/mhmdahmd6'">Live Demo <i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+                <div class="details-container swiper-slide">
+                    <div>
+                        <img src="assets/projact-img.png" class="projact-img">
                     </div>
                     <h2 class="experience-sun-title projact-title">Project SPIRO SPATHIS</h2>
                     <div class="btn-container">
@@ -167,15 +192,25 @@
                 
 
             </div>
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev swiper-button " id="swiper-button"></div>
+            <div class="swiper-button-next swiper-button" id="swiper-button"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+
         </div>
         <img src="" class="arrow">
+ 
       </section>
       <!-- --- Contact Section --- -->
-      <section id="contact">
+      <section id="contact" class="text-box">
         <p class="section__text__p1">Get in Touch</p>   
         <h1 class="title">Contact Me</h1>
 
-        <form action="https://formcarry.com/s/YMtXjNdPnr" method="post" class="contact-form">
+        <form action="index.html" method="post" class="contact-form">
             <div class="input-wrap">
                 <input class="contact-input" autocomplete="off" name="First Name" type="text" required/>
                 <label>First Name</label> 
@@ -203,9 +238,9 @@
       </section>
       <!--footer-->
         <footer>
-            <div class="footer-container">
+            <div class="footer-container section-box">
                 <div class="sec aboutus">
-                    <h2>About Us</h2>
+                    <h2 >About Us</h2>
                     <p>with konwledge in web development and design,</br>
                         
                         I offer the best Projects resulting in quality work.</p>
@@ -218,7 +253,7 @@
                  </div>
                 </div>      
 
-                <div class="footer-container">
+                <div class="footer-container section-box">
                     <div class="sec aboutus">
                         <h2>Contact Info</h2>
                         <ul>
@@ -231,9 +266,6 @@
         </footer>
             <!-- ---  CopyRight --- -->
        <p class="copyright">&#169; M.Jaballah . All right reserved</p>
-       
-
-
 
             <!-- ---  Scroll Up --- -->
        <a href="#profile" class="scrollup" id="scroll-up">
@@ -241,8 +273,56 @@
        </a>     
 
     <!-- fontAwesome -->
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
     <!-- JavaScript -->
+     <!-- JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+         const swiper = new Swiper('.swiper', {
+             speed: 400,
+             spaceBetween: 100,
+              autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+          },
+ 
+   // If we need pagination
+   pagination: {
+     el: '.swiper-pagination',
+     clickable: true
+   },
+     // Navigation arrows
+     navigation: {
+     nextEl: '.swiper-button-next',
+     prevEl: '.swiper-button-prev',
+   },
+ 
+   // And if we need scrollbar
+   scrollbar: {
+     el: '.swiper-scrollbar',
+   },
+   grabCursor: true,
+   breakpoints: {
+     // when window width is >= 640px
+     640: {
+       slidesPerView: 1,
+      
+     },
+     // when window width is >= 480px
+     768: {
+       slidesPerView: 2,
+      
+     },
+     // when window width is >= 1024px
+     1024: {
+       slidesPerView: 3,
+     }
+   }
+ 
+ });
+     </script>
 <script src="main.js"></script>
+<script src="main-1.js"></script>
 </body>
 </html>
